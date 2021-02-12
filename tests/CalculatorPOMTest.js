@@ -7,6 +7,7 @@ describe('calculator pom demo',function(){
         homepage.selectOperator('add');
         homepage.clickGoBtn();
         homepage.verifyResults('30');
+        console.log('Addition completed successfully');
         browser.sleep(2000);
     });
 
@@ -16,6 +17,7 @@ describe('calculator pom demo',function(){
         homepage.selectOperator('divide');
         homepage.clickGoBtn();
         homepage.verifyResults('20');
+        console.log('Division completed successfully');
         browser.sleep(2000);        
     });
     it('multiplication test', function(){
@@ -24,6 +26,7 @@ describe('calculator pom demo',function(){
         homepage.selectOperator('divide');
         homepage.clickGoBtn();
         homepage.verifyResults('50');
+        console.log('Multiplcation completed successfully');
         browser.sleep(2000);        
     });
     it('substraction test', function(){
@@ -32,6 +35,7 @@ describe('calculator pom demo',function(){
         homepage.selectOperator('divide');
         homepage.clickGoBtn();
         homepage.verifyResults('5');
+        console.log('Substraction completed successfully');
         browser.sleep(2000);        
     });
 
