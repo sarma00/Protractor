@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="2" time="8.004">
+ <testsuite name="calculator pom demo" timestamp="2021-02-11T19:18:44" hostname="localhost" time="8.004" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="calculator pom demo" name="addition test" time="5.347" />
+  <testcase classname="calculator pom demo" name="division test" time="2.652" />
+ </testsuite>
+</testsuites>
